@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data.Entity.Core.EntityClient;
+using System.Linq;
 
 namespace EntityFrameworkTest
 {
@@ -17,8 +19,18 @@ namespace EntityFrameworkTest
             entero.Default();
             strings.Default();
             dobles.Default();
-            Console.WriteLine();
-            Console.ReadLine();
+            Console.WriteLine("hola".Reversa());
+        }
+    }
+
+
+    public static class StringExtensions
+    {
+        public static String Reversa(this string v)
+        {
+            char[] array = v.ToCharArray();
+            Array.Reverse(array);
+            return new string(array);
         }
     }
 
