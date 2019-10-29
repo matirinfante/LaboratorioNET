@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratorioNET", "LaboratorioNET\LaboratorioNET.csproj", "{A3E115C7-8502-4B88-BFEA-36071C2F150F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTest", "EntityFrameworkTest\EntityFrameworkTest.csproj", "{BD592C9B-5EE0-4B11-AC50-868A2AFD2A37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A3E115C7-8502-4B88-BFEA-36071C2F150F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E115C7-8502-4B88-BFEA-36071C2F150F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E115C7-8502-4B88-BFEA-36071C2F150F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD592C9B-5EE0-4B11-AC50-868A2AFD2A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD592C9B-5EE0-4B11-AC50-868A2AFD2A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD592C9B-5EE0-4B11-AC50-868A2AFD2A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD592C9B-5EE0-4B11-AC50-868A2AFD2A37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
