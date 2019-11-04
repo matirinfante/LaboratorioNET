@@ -6,9 +6,21 @@
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_LaboratorioNET.-525971365.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Coleccion" t="IncludeRecursive">
+        <e p="Coleccion.csproj" t="IncludeRecursive" />
+        <e p="Coleccion&lt;T&gt;.cs" t="Include" />
+        <e p="Nodo.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
       <e p="EntityFrameworkTest" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="EntityFrameworkTest.csproj" t="IncludeRecursive" />
+        <e p="Persona.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -16,6 +28,41 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
+      </e>
+      <e p="Lab1" t="IncludeRecursive">
+        <e p="Customer.cs" t="Include" />
+        <e p="Extension.cs" t="Include" />
+        <e p="Generica.cs" t="Include" />
+        <e p="Lab1.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Lab2" t="IncludeRecursive">
+        <e p="Lab2.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="LabInterface" t="IncludeRecursive">
+        <e p="Auto.cs" t="Include" />
+        <e p="Avion.cs" t="Include" />
+        <e p="IVehiculo.cs" t="Include" />
+        <e p="IVolador.cs" t="Include" />
+        <e p="LabInterface.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TipoDato.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="LaboratorioNET" t="IncludeRecursive">
         <e p="Calculadora.cs" t="Include" />

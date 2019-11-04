@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace EntityFrameworkTest
 {
@@ -9,8 +11,10 @@ namespace EntityFrameworkTest
         delegate void Referencia2(String mensaje);
 
         delegate string ActionRef<T>(ref string s);
+
         public static void Main(string[] args)
         {
+            /*
             MiClase<int> entero = new MiClase<int>(5);
             entero.Mostrar();
             MiClase<string> strings = new MiClase<string>("aloH");
@@ -35,25 +39,39 @@ namespace EntityFrameworkTest
             refDelegado("assfas");
             Referencia2 refDelegado2 = mensaje => Console.WriteLine();
             refDelegado2("mensaje 2");
+            
             Action<String> action = s =>
             {
                 s = s.Replace(' ', '-');
                 s = s.ToLower();
                 Console.WriteLine(s);
             };
+            
             string str = "HOLA COMO ANDAS";
             action(str);
+            
             ActionRef<String> actionRef = (ref string s) =>
             {
                 s = s.Replace(" ", "-");
                 s = s.ToLower();
                 return s;
-            };  
+            };
+            
             Console.WriteLine($"normalito = {str}");
             actionRef(ref str);
             Console.WriteLine($"modified by reference = {str}");
             Func<int, int, int> f = (n1, n2) => n1 * n2;
             Console.WriteLine(f(1, 2));
+            */
+            //LINQ
+            var valores = new List<int> {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            var pares = valores
+                .Where(x => x % 2 == 0)
+                .ToList();
+            foreach (var p in pares)
+            {
+                Console.WriteLine(p);
+            }
             
         }
     }
