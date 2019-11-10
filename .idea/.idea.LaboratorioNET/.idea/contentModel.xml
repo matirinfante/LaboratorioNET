@@ -17,10 +17,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
-      <e p="EntityFrameworkTest" t="IncludeRecursive">
+      <e p="Entity" t="IncludeRecursive">
         <e p="App.config" t="Include" />
-        <e p="EntityFrameworkTest.csproj" t="IncludeRecursive" />
-        <e p="Persona.cs" t="Include" />
+        <e p="Entity.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -64,6 +63,69 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
+      <e p="LaboratorioEntity" t="IncludeRecursive">
+        <e p="Actor.cs" t="Include" />
+        <e p="ActorInfo.cs" t="Include" />
+        <e p="Address.cs" t="Include" />
+        <e p="Category.cs" t="Include" />
+        <e p="City.cs" t="Include" />
+        <e p="Contexto.cs" t="Include" />
+        <e p="Country.cs" t="Include" />
+        <e p="Customer.cs" t="Include" />
+        <e p="CustomerList.cs" t="Include" />
+        <e p="Film.cs" t="Include" />
+        <e p="FilmActor.cs" t="Include" />
+        <e p="FilmCategory.cs" t="Include" />
+        <e p="FilmList.cs" t="Include" />
+        <e p="FilmText.cs" t="Include" />
+        <e p="Inventory.cs" t="Include" />
+        <e p="LaboratorioEntity.csproj" t="IncludeRecursive" />
+        <e p="Language.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Actor.cs" t="Include" />
+          <e p="ActorInfo.cs" t="Include" />
+          <e p="Address.cs" t="Include" />
+          <e p="Category.cs" t="Include" />
+          <e p="City.cs" t="Include" />
+          <e p="Country.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="CustomerList.cs" t="Include" />
+          <e p="Film.cs" t="Include" />
+          <e p="FilmActor.cs" t="Include" />
+          <e p="FilmCategory.cs" t="Include" />
+          <e p="FilmList.cs" t="Include" />
+          <e p="FilmText.cs" t="Include" />
+          <e p="Inventory.cs" t="Include" />
+          <e p="Language.cs" t="Include" />
+          <e p="NicerButSlowerFilmList.cs" t="Include" />
+          <e p="Payment.cs" t="Include" />
+          <e p="Rental.cs" t="Include" />
+          <e p="SalesByFilmCategory.cs" t="Include" />
+          <e p="SalesByStore.cs" t="Include" />
+          <e p="Staff.cs" t="Include" />
+          <e p="StaffList.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
+          <e p="sakilaContext.cs" t="Include" />
+        </e>
+        <e p="NicerButSlowerFilmList.cs" t="Include" />
+        <e p="Payment.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Rental.cs" t="Include" />
+        <e p="SalesByFilmCategory.cs" t="Include" />
+        <e p="SalesByStore.cs" t="Include" />
+        <e p="Staff.cs" t="Include" />
+        <e p="StaffList.cs" t="Include" />
+        <e p="Store.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="LaboratorioEntity.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="sakilaContext.cs" t="Include" />
+      </e>
       <e p="LaboratorioNET" t="IncludeRecursive">
         <e p="Calculadora.cs" t="Include" />
         <e p="Division.cs" t="Include" />
@@ -81,6 +143,18 @@
         <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="LaboratorioNET.sln" t="IncludeFlat" />
+      <e p="TestGenerics" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Persona.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TestGenerics.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

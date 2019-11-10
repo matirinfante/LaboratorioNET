@@ -1,0 +1,11 @@
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFrameworkTest.exe.config
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFrameworkTest.exe
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFrameworkTest.pdb
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFramework.dll
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFramework.SqlServer.dll
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFramework.xml
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/bin/Debug/EntityFramework.SqlServer.xml
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/obj/Debug/EntityFrameworkTest.csprojAssemblyReference.cache
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/obj/Debug/EntityFrameworkTest.csproj.CopyComplete
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/obj/Debug/EntityFrameworkTest.exe
+/home/matias/RiderProjects/LaboratorioNET/EntityFrameworkTest/obj/Debug/EntityFrameworkTest.pdb
