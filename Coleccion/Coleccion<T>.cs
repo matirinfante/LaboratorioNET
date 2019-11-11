@@ -15,7 +15,8 @@ namespace Coleccion
 
         public bool Buscar(T elemento)
         {
-            return Datos.Where(((Nodo<T>) x => x.Buscar()));
+            return true;
+            //return Datos.Where(((Nodo<T>) x => x.Buscar()));
         }
 
         public IEnumerator<T> GetEnumerator()

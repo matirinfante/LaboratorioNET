@@ -19,7 +19,7 @@ namespace Coleccion
 
         public bool Buscar(T elemento)
         {
-            
+            return true;
         }
         public IEnumerator GetEnumerator()
         {

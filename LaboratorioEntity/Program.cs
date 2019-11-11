@@ -7,7 +7,7 @@ namespace LaboratorioEntity
         static void Main(string[] args)
         {
             var db = new sakilaContext();
-            db.
+            //db.
         }
     }
 }
